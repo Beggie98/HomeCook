@@ -4,83 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adidas</title>
+    <title>HomeCooks</title>
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header class="header">
         <nav class="header-nav">
-            <a href="#" class="logo"><img src="../Adidas/images/logo.png" alt=""></a>
+            <a href="#" class="logo"><img class="logo-img" src="../Adidas-master/images/logo.jpg" alt=""></a>
             <ul class="header-nav-list">
-                <li><a href="#" class="header-nav-link">MEN</a></li>
-                <li><a href="#" class="header-nav-link">WOMEN</a></li>
-                <li><a href="#" class="header-nav-link">KIDS</a></li>
+                <li><a href="#cuisine-section" class="header-nav-link">CUISINE</a></li>
+                <li><a href="#main-dishes" class="header-nav-link">DISHES</a></li>
+                <li><a href="#cook-section" class="header-nav-link">COOKS</a></li>
+                <li><a href="#" class="header-nav-link">DELIVERY</a></li>
             </ul>
             <form class="header-form">
-                <input type="text" placeholder="Поиск..." class="header-form-text">
-                <button class="header-form-btn">Искать</button>
+                <input type="text" placeholder="Location..." class="header-form-text">
+                <button class="header-form-btn">Search</button>
             </form>
         </nav>
-        <div class="header-content">
-            <img src="../Adidas/images/image (1) 1.png" alt="">
-            <h1 class="header-content-title">TRAINING</h1>
-            <p class="header-content-text">My life is beautiful</p>
+        <div id="cuisine-section" class="header-content">
+            <h1 class="header-content-title">DIFFERENT CUISINE</h1>
+            <p class="header-content-text">FIND COOKS IN YOUR AREA</p>
         </div>
     </header>
     <main class="main">
-        <section class="main-clothes">
+        <section  class="main-clothes">
             <div class="main-clothes-item">
-                <img src="images/clothes1.png" alt="">
-                <h3 class="main-clothes-title">Sneakers</h3>
+                <img class="flag" src="images/flag.png" alt="">
+                <h3 class="main-clothes-title">Uzbek Cuisine</h3>
             </div>
             <div class="main-clothes-item">
-                <img src="images/clothes2.png" alt="">
-                <h3 class="main-clothes-title">Shorts</h3>
+                <img class="flag" src="images/Flag_of_Russia.svg.png" alt="">
+                <h3 class="main-clothes-title">Russian Cuisine</h3>
             </div>
             <div class="main-clothes-item">
-                <img src="images/clothes3.png" alt="">
-                <h3 class="main-clothes-title">T-shirts</h3>
+                <img class="flag" src="images/italianFlag.jpg" alt="">
+                <h3 class="main-clothes-title">Italian Cuisine</h3>
             </div>
             <div class="main-clothes-item">
-                <img src="images/clothes4.png" alt="">
-                <h3 class="main-clothes-title">Portfolios</h3>
+                <img class="flag" src="images/manyFlags.jpg" alt="">
+                <h3 class="main-clothes-title">Other Cuisine</h3>
             </div>
         </section>
-        <section class="main-gear">
-            <h2 class="title">ADIDAS WOMEN’S TIRO GEAR</h2>
+        <section id="main-dishes" class="main-gear">
+            <h2 class="title">OUR DISHES</h2>
             <div class="container">
-                <p class="main-gear-text">With women’s adidas Tiro tracksuits, comfort and sleek style go hand-in-hand. Streamlined essentials that started out as warmups have transcended the sports world to strut their stuff throughout the city. Your busy schedule keeps you on the move and Tiro gear is made to keep up. From everyday must-haves like track jackets and hoodies to workout-ready tops and shorts, you’ll have everything you need to take on your day with confidence. Soft breathable fabric is flexible for any activity, with a modern athletic look that always turns heads. On a hot day or at the gym, AEROREADY technology wicks sweat to keep you dry and comfortable.
+                <p class="main-gear-text">In our platform you will be able to select dishes from any nationality cuisine made at home by professional cooks. All you need to do is to type your location in the search bar and it will display all options in your area.
                 </p>
-                <p class="main-gear-text">With a variety of colors in sizes made for all bodies, you can create an outfit that goes with anything and everything in your closet while delivering all-day comfort. Women’s Tiro pants and joggers have a tapered design that really lets you show off your sneaker heat. Keep things low-key and subtle with neutral black and white colorways or highlight your bold fashion sense in reds, greens and pinks. Tiro Pride styles make a clear statement with vibrant, colorful accents. Find women’s Tiro tracksuits, hoodies, and more that fit your lifestyle at adidas.</p>
+                <section class="main-clothes our-dishes-block">
+                    <div class="main-clothes-item our-dishes">
+                        <img class="dish" src="images/Uzbek-Palov.jpg" alt="">
+                        <h3 class="our-dishes-title">Uzbek Palov (Osh)</h3>
+                    </div>
+                    <div class="main-clothes-item our-dishes">
+                        <img class="dish" src="images/borsh.jpg" alt="">
+                        <h3 class="our-dishes-title">Russian Borsh</h3>
+                    </div>
+                    <div class="main-clothes-item our-dishes">
+                        <img class="dish" src="images/other-dishes.jpg" alt="">
+                        <h3 class="our-dishes-title">Other Dishes</h3>
+                    </div>
             </div>
         </section>
-        <section class="main-tiro">
-            <img src="images/imagetiro.jpg" alt="" class="main-tiro-img">
+        <section class="main-cook">
+            
         </section>
-        <section class="main-shoe">
-            <h2 class="title">OUR CLOTHING AND SHOE CATEGORIES</h2>
+        <section id="cook-section" class="main-shoe">
+            <h2 class="title">COOKS IN YOUR AREA</h2>
             <div class="container">
                 <div class="main-shoe-box">
                     <ul class="main-shoe-list">
-                        <li class="main-shoe-li">Beige Sneakers</li>
-                        <li class="main-shoe-li">Black Shoes</li>
+                        <li class="main-shoe-li"> <a class="cook-list" href="#">Ludmila Krovchenko (8.5/10)</a></li>
+                        <li class="main-shoe-li"><a class="cook-list" href="#">Azamat Kurbanov (9/10)</a></li>
                     </ul>
                     <ul class="main-shoe-list">
-                        <li class="main-shoe-li">Beige Sneakers</li>
-                        <li class="main-shoe-li">Black Shoes</li>
+                        <li class="main-shoe-li"><a class="cook-list" href="#">Aziza Usmanova (9.2/10)</a></li>
+                        <li class="main-shoe-li"><a class="cook-list" href="#">Armen Tsarukyan (8.8/10)</a></li>
                     </ul>
                     <ul class="main-shoe-list">
-                        <li class="main-shoe-li">Beige Sneakers</li>
-                        <li class="main-shoe-li">Black Shoes</li>
+                        <li class="main-shoe-li"><a class="cook-list" href="#">Francesco Bernuli (9.5/10)</a></li>
+                        <li class="main-shoe-li"><a class="cook-list" href="#">Carlos Rodriguez (9/10)</a></li>
                     </ul>
                     <ul class="main-shoe-list">
-                        <li class="main-shoe-li">Beige Sneakers</li>
-                        <li class="main-shoe-li">Black Shoes</li>
-                    </ul>
-                    <ul class="main-shoe-list">
-                        <li class="main-shoe-li">Beige Sneakers</li>
-                        <li class="main-shoe-li">Black Shoes</li>
+                        <li class="main-shoe-li"><a class="cook-list" href="#">Maftuna Nozimova (9.3/10)</a></li>
+                        <li class="main-shoe-li"><a class="cook-list" href="#">Delfino Gonzalez (9.7/10)</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,12 +96,13 @@
     </main>
     <footer class="footer">
         <a href="#" class="logo">
-            <img src="images/logo_footer.png" alt="">
+            <img class="logo-img" src="images/logo.jpg" alt="">
         </a>
         <ul class="footer-list">
-            <li><a href="#" class="footer-link">MEN</a></li>
-            <li><a href="#" class="footer-link">WOMEN</a></li>
-            <li><a href="#" class="footer-link">KIDS</a></li>
+            <li><a href="#cuisine-section" class="footer-link">CUISINE</a></li>
+            <li><a href="#main-dishes" class="footer-link">DISHES</a></li>
+            <li><a href="#cook-section" class="footer-link">COOKS</a></li>
+            <li><a href="#" class="footer-link">DELIVERY</a></li>
         </ul>
     </footer>
 </body>
